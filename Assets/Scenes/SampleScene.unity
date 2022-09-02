@@ -76474,7 +76474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveInput: {fileID: 0}
-  _root: {fileID: 0}
-  _animator: {fileID: 0}
+  _root: {fileID: 1700930952}
+  _animator: {fileID: 1512116562}
   _movingThreshold: 0.5
   _speed: 5
