@@ -47,16 +47,6 @@ public class PlayerMovement : MonoBehaviour
             _animator.SetBool("IsWalking", false); 
         }
 
-
-        // if (direction.x > 0) 
-        // {
-        //     _root.rotation = Quaternion.Euler(0, 0, 0);
-        // }
-        // else if (direction.x < 0) 
-        // {
-        //     _root.rotation = Quaternion.Euler(0, 180, 0);
-        // }
-
     }
 
     private void StartMove(InputAction.CallbackContext obj)
