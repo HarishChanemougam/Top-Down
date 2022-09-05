@@ -46,14 +46,13 @@ public class PlayerMovement : MonoBehaviour
     {
         _root.transform.Translate(_playerMovement * Time.deltaTime * _speed, Space.World);
 
-       /* _animator.SetFloat("Horizontal", _aimDirection.x);
-        _animator.SetFloat("vertical", _aimDirection.y);
-        _animator.SetBool("IsMoving", _direction.magnitude > 0.1f);
-        _animator.SetBool("IsRunning", _isRunning);*/
+      
 
         if (_playerMovement.magnitude > _movingThreshold)
         {
             _animator.SetBool("IsWalking", true);
+            _animator.SetFloat("Vertical", _playerMovement.x);
+            _animator.SetFloat("Horizontal",_playerMovement.y);
         }
         else
         {

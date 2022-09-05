@@ -6,7 +6,7 @@
             "id": "f06a4660-b2a3-4fdd-8e3d-39798ebbccd1",
             "actions": [
                 {
-                    "name": "Walk",
+                    "name": "Walking",
                     "type": "Value",
                     "id": "dc6fbe20-5b13-4afa-bb32-1912bbd8b8d1",
                     "expectedControlType": "Vector2",
@@ -15,49 +15,40 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Run",
+                    "name": "Running",
                     "type": "Button",
-                    "id": "f812e43a-25c0-4a0f-b986-b5d416c38919",
+                    "id": "2046ab65-b6d8-46bb-b556-0e2454e4b8f7",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "Flip",
-                    "type": "Value",
-                    "id": "3f80d138-604d-4409-9ec6-3ddcfbe285ed",
-                    "expectedControlType": "Vector2",
+                    "name": "Jumping",
+                    "type": "Button",
+                    "id": "842c7e9b-287c-4f5f-b0f5-f90eaa0dfe99",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Summing",
-                    "type": "Value",
-                    "id": "4c80e931-3ebf-492f-913d-0ac05478d2d9",
-                    "expectedControlType": "Vector2",
+                    "type": "Button",
+                    "id": "6c19ad7f-df58-4062-8507-1e4f0bb0eb58",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Jump",
-                    "type": "Value",
-                    "id": "56becce8-3a90-42a7-a259-a7e32f885f0a",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Ghost",
-                    "type": "Value",
-                    "id": "f21666da-3a74-4cce-b756-264f5b7473f4",
-                    "expectedControlType": "Vector2",
+                    "type": "Button",
+                    "id": "22689fca-900d-4563-8545-6d814fcf5f40",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -68,7 +59,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Walk",
+                    "action": "Walking",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -79,7 +70,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Walk",
+                    "action": "Walking",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -90,7 +81,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Walk",
+                    "action": "Walking",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -101,7 +92,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Walk",
+                    "action": "Walking",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -112,35 +103,35 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Walk",
+                    "action": "Walking",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "",
-                    "id": "e959d59c-28a4-453f-a0c9-0169f1ef0cc6",
+                    "id": "de4381e2-85e4-4755-b55c-9b99442a31f7",
                     "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Run",
+                    "action": "Running",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "8d0700d5-25b1-404e-ad1f-4f3a31a51d7b",
-                    "path": "<Keyboard>/f",
+                    "id": "002a9c6e-5de3-461b-8525-52a5bd2424d2",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Flip",
+                    "action": "Jumping",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "ae045af4-69ab-4835-b245-3cb4c6dbceb5",
+                    "id": "977a3310-3a21-486c-8662-68388ff5248a",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -151,18 +142,7 @@
                 },
                 {
                     "name": "",
-                    "id": "a04215cd-e1a1-4736-afe5-cb2d9c8a57ae",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "8bfecd36-cc6a-4b5e-9811-cd2234d0d3c5",
+                    "id": "e0e4b2e7-429e-425d-ba22-17adfbf8bafc",
                     "path": "<Keyboard>/g",
                     "interactions": "",
                     "processors": "",
