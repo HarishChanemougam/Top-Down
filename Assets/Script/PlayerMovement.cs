@@ -18,7 +18,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float _speed;
     [SerializeField] float _isRunning;
 
-
+    string _player;
+    float _speedOfMovementVariable;
     Vector2 _playerMovement;
     Vector2 _aimDirection;
     Vector2 _direction;
@@ -121,4 +122,24 @@ public class PlayerMovement : MonoBehaviour
 
          body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
      }*/
+
+    private PlayerInput playerInput;
+
+    private void LateUpdate()
+    {
+        playerInput = GetComponent<PlayerInput>();
+    }
+
+    private void UpdateRotation()
+    {
+        Vector2 moveAction = playerInput.actions["Move"].ReadValue<Vector2>();
+        Vector2 rotateAction = playerInput.actions["Rotate"].ReadValue<Vector2>();
+
+        Vector3 moveInput = new Vector3(moveAction.x, 0f, moveAction.y);
+        Vector3 rotateInput = new Vector3(rotateAction.x, 0f, rotateAction.y);
+
+        transform.Translate(moveInput * _speedOfMovementVariable * Time.deltaTime);
+
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(rotateInput), _speedOfMovementVariable * Time.deltaTime);
+    }
 }

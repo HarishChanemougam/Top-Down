@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce96d293648beb54f921c22e6ae98227
+      internalID: 92188975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 229
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2fa94ca4bac7f4e82d215312104900
+      internalID: 353419852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 229
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610928179fc9f2440947b1cbc6d47278
+      internalID: -788841405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca54c2ad0cfccb4f89d2cc98058b7a6
+      internalID: 1385742721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 206
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1036d69c13ba7b84e89ed122cd325117
+      internalID: -972486202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 206
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f66658378b6ec48b178badd76af6ef
+      internalID: -1377066925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c7381caa69dc74698b3241dfd41d75
+      internalID: -2136542129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 137
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e09951daf50ed44c884af2737ab42de
+      internalID: -395359199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 137
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72465d3a628c76341a90199edb4daaba
+      internalID: 1911385093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 137
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecbaec1c5e77f142a83e8812c4e6341
+      internalID: -113923833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 137
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5920ea7e6343749ae8911ed1fb5a70
+      internalID: -940408533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 137
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a53ddff456730849ad45b1cc5721cb5
+      internalID: -2038906808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fd8f7b62e58654b88616f113b2abb5
+      internalID: 194018716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 68
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd137be36c087714d81c1aaacc0611ac
+      internalID: -348596822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 68
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51a33c0482754e4ebbb4ac1e960c2ba
+      internalID: -1866972000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 68
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bed823c394f8345ae19042549da540
+      internalID: 704044363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 68
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36345b77dc5fc794c98510f5575b1e3e
+      internalID: -823384653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 68
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d1798e72b00b4594404bc518071c1
+      internalID: -246800412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 228
+        width: 31
+        height: 47
+      alignment: 9
+      pivot: {x: 0.47148064, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73beb6e28b262934da585dded709c4c2
+      internalID: -2082941873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psyduck-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 229
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81c8caf124af3c4ca45debe2754d37e
+      internalID: -404665533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +558,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Psyduck-removebg-preview_2: -788841405
+      Psyduck-removebg-preview_9: -113923833
+      Psyduck-removebg-preview_8: 1911385093
+      Psyduck-removebg-preview_16: -823384653
+      Psyduck-removebg-preview_18: -2082941873
+      Psyduck-removebg-preview_3: 1385742721
+      Psyduck-removebg-preview_10: -940408533
+      Psyduck-removebg-preview_12: 194018716
+      Psyduck-removebg-preview_11: -2038906808
+      Psyduck-removebg-preview_13: -348596822
+      Psyduck-removebg-preview_1: 353419852
+      Psyduck-removebg-preview_17: -246800412
+      Psyduck-removebg-preview_5: -1377066925
+      Psyduck-removebg-preview_7: -395359199
+      Psyduck-removebg-preview_4: -972486202
+      Psyduck-removebg-preview_19: -404665533
+      Psyduck-removebg-preview_0: 92188975
+      Psyduck-removebg-preview_15: 704044363
+      Psyduck-removebg-preview_6: -2136542129
+      Psyduck-removebg-preview_14: -1866972000
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
