@@ -1,27 +1,35 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.EventSystems.EventTrigger;
+using static UnityEngine.InputSystem.InputSettings;
 
+enum PlayerState
+{
+    IDELE,
+    WALK,
+    RUN,
+    JUMP,
+    SWIM,
+    GHOST
+}
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] InputActionReference _moveInput;
-    [SerializeField] InputActionReference _runInput;
-    [SerializeField] InputActionReference _SummingInput;
-    [SerializeField] InputActionReference _JumpInput;
-    [SerializeField] InputActionReference _ghostInput;
-    [SerializeField] InputActionReference _flipInput;
     [SerializeField] Transform _root;
     [SerializeField] Animator _animator;
     [SerializeField] float _movingThreshold;
     [SerializeField] float _speed;
-    [SerializeField] float _isRunning;
+   
 
+    private PlayerInput playerInput;
     string _player;
     float _speedOfMovementVariable;
     Vector2 _playerMovement;
-    Vector2 _aimDirection;
+    Vector3 _aimDirection;
     Vector2 _direction;
 
 
@@ -66,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
     private void StartMove(InputAction.CallbackContext obj)
     {
         _playerMovement = obj.ReadValue<Vector2>();
+        
 
     }
 
@@ -78,9 +87,9 @@ public class PlayerMovement : MonoBehaviour
     private void EndMove(InputAction.CallbackContext obj)
     {
         _playerMovement = new Vector2(0, 0);
+        /*Vector3 direction = _aimDirection.direction; */
     }
 
-    private PlayerInput playerInput;
 
     private void LateUpdate()
     {
@@ -101,44 +110,5 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    /*private void FixedUpdate()
-    {
-
-        _animator.SetFloat("Horizontal", _aimDirection.x);
-        _animator.SetFloat("vertical", _aimDirection.y);
-        _animator.SetBool("IsMoving", _direction.magnitude > 0.1f);
-        _animator.SetBool("IsRunning", _isRunning);
-
-    }*/
-    /* Rigidbody2D body;
-
-     float horizontal;
-     float vertical;
-     float moveLimiter = 0.7f;
-
-     public float runSpeed = 20.0f;
-
-     void Start()
-     {
-         body = GetComponent<Rigidbody2D>();
-     }
-
-     void Update()
-     {
-
-         horizontal = Input.GetAxisRaw("Horizontal");
-         vertical = Input.GetAxisRaw("Vertical");
-     }
-
-     void FixedUpdate()
-     {
-         if (horizontal != -1 && vertical != -1)
-         {
-
-             horizontal *= moveLimiter;
-             vertical *= moveLimiter;
-         }
-
-         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
-     }*/
+    
 }
